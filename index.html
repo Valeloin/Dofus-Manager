@@ -1,64 +1,57 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dofus Manager</title>
     <link rel="icon" type="image/png" href="images\Dofus_emeraude.png" sizes="96x96">
     <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="normalize.css" rel="stylesheet" type="text/css">
 
 </head>
-
-
-
 <body>
+   
+        <table class="main-table" id="tab_logic">
+            <thead>
+                <tr>
+                    <th class="">N°</th>
+                    <th class="">ID</th>
+                    <th class="">Name</th>
+                    <th class="">Classe</th>
+                    <th class="">LVL</th>
+                    <th class="">Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id='addr0'>
+                    <td>
+                        1
+                    </td>
+                    <td>
+                        <input type="text" name='ID0' placeholder='ID' class="" />
+                    </td>
+                    <td>
+                        <input type="text" name='pass0' placeholder='Name' class="" />
+                    </td>
+                    <td>
+                        <input type="text" name='Classe0' placeholder='Classe' class="" />
+                    </td>
+                    <td>
+                        <input type="text" name='LVL0' placeholder='LVL' class="" />
+                    </td>
+                    <td>
+                        <input type="text" name='Details' placeholder='Details' class="" />
+                    </td>
+                </tr>
+                <tr id='addr1'></tr>
+            </tbody>
+        </table>
 
-
-    <table class="table-box" id="tab_logic">
-        <thead>
-            <tr>
-                <th class="">N°</th>
-                <th class="">ID</th>
-                <th class="">Name</th>
-                <th class="">Classe</th>
-                <th class="">LVL</th>
-                <th class="">Details</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr id='addr0'>
-                <td>
-                    1
-                </td>
-                <td>
-                    <input type="text" name='ID0' placeholder='ID' class="" />
-                </td>
-                <td>
-                    <input type="text" name='pass0' placeholder='Name' class="" />
-                </td>
-                <td>
-                    <input type="text" name='Classe0' placeholder='Classe' class="" />
-                </td>
-                <td>
-                    <input type="text" name='LVL0' placeholder='LVL' class="" />
-                </td>
-                <td>
-                    <input type="text" name='Details' placeholder='Details' class="" />
-                </td>
-            </tr>
-            <tr id='addr1'></tr>
-        </tbody>
-    </table>
-
-    <a id="add_row" class="">Add Row</a>
-    <a id='delete_row' class="">Delete Row</a>
-
-
+        <a id="add_row" class="">Add Row</a>
+        <a id='delete_row' class="">Delete Row</a>
+    </div>
     <script src="jquery"></script>
     <script src="node_modules\jquery\dist\jquery.min.js"></script>
     <script src="app.js" type="text/javascript"></script>
-
 </body>
-
 </html>
