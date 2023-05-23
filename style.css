@@ -1,12 +1,33 @@
 * {
   box-shadow: 0 0 0 1px red
   inset;
+  text-decoration: none; 
 }
 
 html {
   height: 100%;
   width: 100%;
   font-size: 2vw;
+  background-color: darkgrey;
+}
+
+body {
+  display: block;
+  margin: 2vw;
+  
+}
+
+.table-box {
+  width: 100%;
+
+}
+
+td{
+  text-align: center;
+}
+input{
+  text-align: center;
+  width: 90%;
 }
   
 @media screen and (min-width:1000px){
