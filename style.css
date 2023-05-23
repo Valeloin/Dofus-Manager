@@ -7,42 +7,40 @@ html {
   height: 100%;
   width: 100%;
   background-color: darkgrey;
+  display: flex;
+  justify-content: center;
 }
 
 body {
-  background-color: #8a8888;
-  text-align: center;
-  margin: auto;
+  
 
 }
-
+.main-div{
+  background-color: #535050;
+  margin: 2vw;
+  border-radius: 2vw;
+  
+}
 
 .main-table {
-  display: table;
-  border-collapse: separate;
-  box-sizing: border-box;
+  margin: 2vw;  
+  border-collapse: separate; 
   text-indent: initial;
-  border-spacing: 0px;
   border-color: gray;
+  box-shadow: 0 0 0 1px red inset;
 }
 
-.table-style {
-  width: 100%;
 
-}
-
-.table-input {
-
-}
-
-td{
-  text-align: center;
-}
 input{
   text-align: center;
-  width: 90%;
+  width: 80%;
 }
   
 @media screen and (min-width:1000px){
+
+
+
+
+
   
 }
