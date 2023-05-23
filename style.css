@@ -1,6 +1,7 @@
 * {
-  box-shadow: 0 0 0 1px red inset;
-  
+  /*box-shadow: 0 0 0 1px red inset;*/
+  font-family: Helvetica, sans-serif;
+  font-size: 0.8rem;
 }
 
 html {
@@ -17,25 +18,41 @@ body {
 }
 .main-div{
   background-color: #535050;
-  margin: 2vw;
-  border-radius: 2vw;
+  border-radius: 0.3rem;
+  border: 2px solid #D4D4D5;
+  display: flexbox;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
   
 }
 
 .main-table {
-  margin: 2vw;  
+  
   border-collapse: separate; 
-  text-indent: initial;
-  border-color: gray;
-  box-shadow: 0 0 0 1px red inset;
+  justify-content: center;
+  display: flexbox;
+  text-align: center;
+  padding: 0.4rem;
 }
 
 
 input{
   text-align: center;
   width: 80%;
+  border-radius: 0.3rem;
 }
+th{
   
+  color: #D4D4D5;
+}
+td{
+  text-align: center;
+  color: #D4D4D5;
+}
+a{
+  color: #D4D4D5;
+  padding: 0.7rem;
+}
 @media screen and (min-width:1000px){
 
 
