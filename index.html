@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dofus Manager</title>
     <link rel="icon" type="image/png" href="images\Dofus_emeraude.png" sizes="96x96">
     <link href="style.css" rel="stylesheet" type="text/css">
-
-
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
 </head>
-
+<nav>
+    <h1 id='title-nav'>Dofus Manager</h1>
+    <ul>
+      <li><a href="#">Item 1</a></li>
+      <li><a href="#">Item 2</a></li>
+      <li><a href="#">Item 3</a></li>
+    </ul>
+</nav>
 <body>
     <div class="main-div">
         <table class="main-table" id="tab_logic">
+            
             <thead>
                 <tr>
                     <th class="">#</th>
@@ -25,6 +32,7 @@
                 </tr>
             </thead>
             <tbody>
+                
                 <tr id='addr0'>
                     <td>
                         1
@@ -46,17 +54,18 @@
                     </td>
                 </tr>
                 <tr id='addr1'></tr>
+                
             </tbody>
+            
 
         </table>
-
-        <a id="add_row" class="">Add Row</a>
-        <a id='delete_row' class="">Delete Row</a>
-
     </div>
+    <a id="add_row" class="button-table">Add Row</a>
+    <a id='delete_row' class="button-table">Delete Row</a>
     <script src="jquery"></script>
     <script src="node_modules\jquery\dist\jquery.min.js"></script>
     <script src="app.js" type="text/javascript"></script>
+    
 </body>
 
 </html>
